@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Establece el color de todos los enlaces */
+a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+
+a:visited {
+  color: #007bff; 
+}
+
+
+a:hover {
+  color: #0056b3; 
+}

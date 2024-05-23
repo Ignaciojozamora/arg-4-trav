@@ -1,0 +1,47 @@
+.aboutSection {
+    display: flex;
+    flex-direction: column; /* Para que los elementos se apilen verticalmente */
+    align-items: center; /* Para centrar horizontalmente los elementos */
+  }
+  
+  .mainImage {
+    width: 100%;
+    overflow: hidden; /* Para asegurar que la imagen no sobresalga del contenedor */
+  }
+  
+  .mainImage img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .secondaryImages {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en filas si no caben en una sola línea */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+  }
+  
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espaciado entre los contenedores */
+  }
+  
+  .imageContainer img {
+    width: 40rem; /* Ajusta el ancho de las imágenes según sea necesario */
+    margin-right: 20px;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 16px;
+  }
+  

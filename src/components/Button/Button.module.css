@@ -1,0 +1,27 @@
+.button {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .button button {
+    background-color: #ff6e6e; /* Color inicial del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button button:hover {
+    background-color: #ff4e4e; /* Color del botón al hacer hover */
+  }
+  
+  .button button:focus {
+    outline: none;
+  }
+  
+  .button button:active {
+    background-color: #ff2e2e; /* Color del botón al hacer clic */
+  }
+  

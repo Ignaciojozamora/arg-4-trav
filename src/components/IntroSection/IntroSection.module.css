@@ -1,0 +1,34 @@
+/* IntroSection.module.css */
+.intro {
+  position: relative;
+}
+
+.introImageContainer {
+  width: 100%;
+  max-width: 100%; /* Máximo ancho de la imagen */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+.introImage {
+  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+.introContent {
+  text-align: center;
+  color: #fff;
+  padding: 20px; /* Añadir espacio alrededor del contenido */
+}
+
+.introContent h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.introContent p {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
